@@ -1,5 +1,5 @@
 {
-  "name": "tijen",
+  "name": "vue-electron",
   "version": "0.0.1",
   "author": "Can Mehmet <can.mehmet@tomplabs.com>",
   "description": "An electron-vue project",
@@ -20,7 +20,7 @@
     "postinstall": ""
   },
   "build": {
-    "productName": "tijen",
+    "productName": "vue-electron",
     "appId": "com.example.yourapp",
     "directories": {
       "output": "build"
@@ -56,6 +56,7 @@
   "dependencies": {
     "axios": "^0.18.0",
     "bootstrap-vue": "^2.0.0-rc.11",
+    "jquery": "^3.3.1",
     "normalize.css": "^8.0.1",
     "nprogress": "^0.2.0",
     "vee-validate": "^2.1.4",
