@@ -54,12 +54,18 @@
     }
   },
   "dependencies": {
-    "vue": "^2.5.16",
     "axios": "^0.18.0",
+    "bootstrap-vue": "^2.0.0-rc.11",
+    "normalize.css": "^8.0.1",
+    "nprogress": "^0.2.0",
+    "vee-validate": "^2.1.4",
+    "vue": "^2.5.16",
     "vue-electron": "^1.0.6",
     "vue-router": "^3.0.1",
+    "vue-spinner-component": "^1.0.5",
     "vuex": "^3.0.1",
-    "vuex-electron": "^1.0.0"
+    "vuex-electron": "^1.0.0",
+    "vuex-i18n": "^1.10.5"
   },
   "devDependencies": {
     "ajv": "^6.5.0",

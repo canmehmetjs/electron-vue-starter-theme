@@ -1,0 +1,17 @@
+{   
+    "nav":
+    {
+        "home" : "Home",    
+        "login" : "Login",
+        "lang" : "Language"
+    },
+    "homepage":
+    {
+        "title" : "Vue Electron Starter Theme",    
+        "description" : "Below you can find features that are already integrated in this starter theme"
+    },
+    "login":
+    {
+        "title" : "Please login."
+    }
+}

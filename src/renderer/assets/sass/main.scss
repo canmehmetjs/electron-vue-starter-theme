@@ -1,0 +1,69 @@
+
+@import '~bootstrap/dist/css/bootstrap.css';
+@import '~bootstrap-vue/dist/bootstrap-vue.css';
+
+@import 'variables';
+@import '_mixins';
+@import 'blocks/header';
+@import 'components/buttons';
+@import 'components/form';
+@import 'components/margins';
+@import 'pages/authentication';
+@import 'pages/admin';
+
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700,800');
+
+/* CSS Document */
+body{
+        background:#fff;
+        width:100%;
+        color:$color--text;
+        font-family: 'Nunito', sans-serif;
+}
+
+
+h1{
+        font-size: 43px;
+        font-weight: 700;
+}
+h2{
+    font-size:35px;
+}
+h3{
+    font-size:30px;
+}
+h4{
+    font-size:23px;
+}
+.bold{
+    font-weight:bold !important;
+}
+p{
+        font-size:14px;
+}
+
+a{
+    color:$color--primary;
+    transition:0.2s ease-in;
+    &:hover{
+        color:$color--primary;
+        transform: translateY(-1px);
+        text-decoration:none;
+    }
+}
+
+    
+    
+    
+    .p-b-90{
+        padding-bottom:90px;
+    }
+
+
+    .box-shadow{
+        box-shadow: 0 6px 18px 0 rgba(46,50,128,0.15);
+    }
+    
+
+   
+    

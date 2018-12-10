@@ -1,0 +1,17 @@
+{   
+    "nav":
+    {
+        "home" : "Ballina",    
+        "login" : "Kyçu",
+        "lang" : "Gjuha"
+    },
+    "homepage":
+    {
+        "title" : "Një temë startuese për Vue dhe Electron",    
+        "description" : "Më poshtë mund të gjeni veçoritë që janë të integruara në këtë temë fillestare"
+    },
+    "login":
+    {
+        "title" : "Ju lutem kyçuni"
+    }
+}

@@ -1,0 +1,77 @@
+
+.site_btn{
+    padding: 4px 17px !important;
+    border-radius: 4px;
+    background: #4cae51;
+    color: #fff !important;
+    border:2px solid $color--primary; 
+    font-size:12px;
+    text-align: center;
+    cursor: pointer;
+    &:hover{
+        background:$color--primary !important;
+        color:#fff !important;
+        border:2px solid $color--primary; 
+    }
+    &:active,
+    &:focus{
+        outline: none;
+    }
+
+
+    &.primary_btn{
+        background: $color--primary;  
+        color: #fff;    
+    }
+    &.primary_btn_outlined{
+        background: #fff;  
+        border:2px solid $color--primary;  
+        color: $color--text;    
+
+        &:hover{
+            background:none !important;
+            color:$color--text !important;
+            border:2px solid $color--text;  
+            transform: translateY(-1px)
+        }
+
+    }
+    &.facebook_btn{
+        background:#4267b2;
+        color:#fff;
+        display:inline-block;
+        border:2px solid #4267b2; 
+        line-height: 26px; 
+        padding-left: 34px !important;
+        &:hover{
+            background:#4267b2 !important;
+        }
+        svg{
+            position: absolute;
+            left: 3px;
+            top: 10px;
+            left: 17px;
+        }
+    }
+    &.form_btn{
+        min-width:200px; 
+        height: 40px;
+        position: relative;
+
+        .button_spinner{
+            
+            .sl-spinner{
+                top:9px;
+                display: inline-block;
+                width: 20px !important;
+                height: 20px !important;
+                border-width: 3px !important;
+                line-height: 0;
+                position: absolute;
+                left: 0;
+                right: 0;
+                margin: 0 auto;
+            }
+        }
+    }
+}

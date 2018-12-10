@@ -1,0 +1,53 @@
+.authentication-page{
+    width: 28%;
+    margin: 80px auto;
+
+    .login_with_facebook {
+        display: block;
+        position: relative;
+        text-align: center;
+        min-height: 40px;
+        max-height: 40px;
+        margin: 30px 0;
+    }
+    .or_seperator {
+        position: relative;
+        width: 100%;
+        text-align: center;
+
+        span{
+            color:rgba(151, 151, 151, 0.24);
+            text-transform: uppercase;
+            display: block;
+            position: relative;
+            &:before,
+            &:after{
+                content:"";
+                top: 11px;
+                width: 44%;
+                height:2px;
+                background:rgba(151, 151, 151, 0.24);
+                position: absolute;
+            }
+    
+            &:before{
+                left:0;
+            }
+            &:after{
+                right:0;
+            }
+        }
+       
+    }
+    p.form_bottom {
+        margin: 20px 0;
+        font-size: 12px;
+        a{
+            font-size:12px;
+            margin-left:5px;
+        }
+    }
+
+
+
+}

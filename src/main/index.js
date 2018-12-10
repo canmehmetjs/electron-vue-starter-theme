@@ -1,5 +1,7 @@
 import { app, BrowserWindow } from 'electron'
 
+process.env.ELECTRON_DISABLE_SECURITY_WARNINGS = '1';
+
 /*
 You can also attach an external debugger to the main process to remotely debug your application. In order to activate the debugger in production you can add the follow snippet after the app import inside src/main/index.js. Then you can navigate Google Chrome to chrome://inspect and get connected.
 */
@@ -24,16 +26,21 @@ function createWindow () {
    * Initial window options
    */
   mainWindow = new BrowserWindow({
-    height: 563,
+    height: 800,
     useContentSize: true,
-    width: 1000
+    width: 1200
   })
 
   mainWindow.loadURL(winURL)
 
+
+
+
   mainWindow.on('closed', () => {
     mainWindow = null
   })
+
+  require('./app_menu')
 }
 
 app.on('ready', createWindow)
